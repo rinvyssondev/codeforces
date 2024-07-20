@@ -8,7 +8,6 @@ int main(){
     string s;
     cin >> s;
     set<char> d;
-    cout << d;
 
     for(char c : s) {
         d.insert(c);
